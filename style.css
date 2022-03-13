@@ -1,0 +1,129 @@
+html {
+  box-sizing: border-box;
+  width: 1140px;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", sans-serif;
+  margin: 0%;
+
+  background: url(https://funart.pro/uploads/posts/2020-05/1588414403_21-p-shikarnie-raduzhnie-foni-79.jpg)
+    no-repeat;
+  min-height: 100%;
+  background-size: cover;
+}
+.container {
+  /*border :1px black solid;*/
+  margin: 0;
+  background-color: blue;
+  padding: 0;
+}
+.main-inner {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+header a {
+  color: rgb(167, 47, 47);
+}
+
+.header {
+  width: 11140px;
+}
+.header-logo {
+  display: flex;
+  margin: 15px 0px 0px 0px;
+  padding: 30px 0px 0px 0px;
+  color: firebrick;
+  justify-content: flex-starts;
+}
+
+.main {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 20px;
+}
+
+.main-item {
+  display: inline-block;
+  padding: 0px 0px;
+  margin: 0px 15px;
+}
+.main-link {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.imgrez {
+  padding: 0;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+}
+.img {
+  border-radius: 90px;
+}
+.h1 {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+.h2 {
+  display: flex;
+  justify-content: center;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  text-align: center;
+  margin: 0px 0px 0px 300px;
+  background-color: blue;
+  padding: 15px;
+  color: #fff;
+}
+
+.h2Контaкты {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.mainkontakt {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+}
+.skills {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+}
+.h3пример {
+  display: flex;
+  justify-content: center;
+}
+.pre-skills {
+  background-color: blue;
+  width: 300px;
+  color: #fff;
+}
+.h2languages {
+  display: flex;
+  justify-content: center;
+}
+.languages {
+  background-color: blue;
+  padding: 15px;
+  color: #fff;
+  width: 300px;
+}
+.Образования {
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+}
